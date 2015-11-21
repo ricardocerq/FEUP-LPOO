@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sheep Party Client</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="SendButtonText">Send</string>
+    <string name="scanButtonText">Scan</string>
+    <string name="helpButtonText">Play</string>
+    <string name="quitButtonText">Quit</string>
+	<color name="white">#FFFFFF</color>
+</resources>

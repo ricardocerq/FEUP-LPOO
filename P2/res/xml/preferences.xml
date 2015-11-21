@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="hap"
+        android:title="Haptic Feedback" >
+      
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enable"
+            android:summary="Enable or disable Haptic Feedback"
+            android:title="Enable Haptic Feedback" />
+    	</PreferenceCategory>
+    	
+    	<ListPreference
+        android:defaultValue="1"
+        android:dependency="enable"
+        android:entries="@array/updateInterval"
+        android:entryValues="@array/updateIntervalValues"
+        android:key="hap_time"
+        android:summary="Define Haptic Feedback Time"
+        android:title="Haptic Feedback Time" />
+    	
+    	
+</PreferenceScreen>
